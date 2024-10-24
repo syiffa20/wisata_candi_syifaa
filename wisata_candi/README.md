@@ -1,6 +1,6 @@
 # wisata_candi
 
-membuat aplikasi wisata candi
+A new Flutter project.
 
 ## Getting Started
 

@@ -3,6 +3,7 @@ import 'package:wisata_candi/data/candi_data.dart';
 import 'package:wisata_candi/screens/detail_screen.dart';
 
 
+
 void main() {
   runApp(const MyApp());
 }
@@ -19,10 +20,12 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
+      // home: DetailScreen(candi: candiList[0]),
       home: DetailScreen(candi: candiList[0]),
     );
   }
 }
+
 
 
 
